@@ -1,0 +1,24 @@
+.ul_Header{
+    display: flex;
+    gap: 30px;
+    flex-direction:row;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(26, 120, 120);
+}
+header{
+    background-color: rgb(137, 190, 197);
+}
+h2{
+    background-color: rgb(218, 222, 169);
+}
+body{
+    display: grid;
+    grid-template-columns:2fr 3fr;
+    grid-template-areas: 'header '
+                        'header'
+                        'header';
+}

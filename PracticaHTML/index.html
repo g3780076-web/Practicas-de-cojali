@@ -4,12 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carta de presentación</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+    <header class="header">
+        <h1>Carta de presentación</h1>
+        <nav>
+            <ul class="ul_Header">
+                <a href="#inicio">Inicio</a>
+                <a href="#datospersonales">Informacion Personal</a>
+                <a href="#contactar">Formulario</a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 id="#inicio">Inicio</h2>
+    <p>
+        Soy desarrollador web con interés en crear páginas modernas, 
+    funcionales y centradas en la experiencia del usuario. 
+    Me especializo en tecnologías como HTML, CSS y JavaScript,
+     y disfruto construyendo interfaces limpias y eficientes.
 
-    <h1>Carta de presentación</h1>
+    Me gusta aprender constantemente y enfrentar nuevos 
+    retos, mejorando tanto mis habilidades técnicas como 
+    mi forma de resolver problemas. Estoy interesado en 
+    colaborar en proyectos donde pueda aportar valor y 
+    seguir creciendo como profesional.
+    </p>
 
-    <h2>Datos personales</h2>
+    <h2 id="datospersonales">Datos personales</h2>
     <p><strong>Nombre:</strong>Guillemo</p>
     <p><strong>Email:</strong> guillermoalbercatorrescervante@gmail.com</p>
     <p><strong>Teléfono:</strong> 123 456 789</p>
@@ -42,6 +65,33 @@
     <p>
         Mi objetivo es crecer profesionalmente en el ámbito tecnológico y aportar valor en una empresa.
     </p>
+    <h2 id="contactar">Formulario</h2>
+    <section>
+    <fieldset>
+        <legend>Datos personales</legend>
+        <label for="">Edad</label>
+        <input type="number" name="" id=""><br>
+        <label for="">Nombre</label>
+        <input type="text" name="" id=""><br>
+        <label for="">Email</label>
+        <input type="email" name="" id=""><br>
+        <label for="">Comentarios</label>
+        <textarea name="" id=""></textarea>
+    </fieldset>
+    <fieldset>
+                <legend>Género:</legend> <input type="radio" id="genero_hombre" name="genero" value="hombre">
+                <label for="genero_hombre">Hombre</label>
 
+                <input type="radio" id="genero_mujer" name="genero" value="mujer">
+                <label for="genero_mujer">Mujer</label>
+
+                <input type="radio" id="genero_otro" name="genero" value="otro">
+                <label for="genero_otro">Otro</label>
+            </fieldset>
+            <fieldset>
+                <button type="submit">ENVIAR</button>
+            </fieldset>
+    </section>
+    </main>
 </body>
 </html>
