@@ -15,10 +15,36 @@ header{
 h2{
     background-color: rgb(218, 222, 169);
 }
-body{
+
+
+/*
+main{
+    display: grid;
+    grid-template-columns:1fr 2fr;
+    grid-template-rows: auto auto;
+    grid-template-areas: 'inicio datospersonales'
+                        'contactar contactar';
+}
+
+#inicio{
+    grid-area: inicio;
+}
+
+#datospersonales{
+    grid-area: datospersonales;
+}
+
+#contactar{
+    grid-area: contactar;
+}
+*/
+
+
+
+/*body{
     display: grid;
     grid-template-columns:2fr 3fr;
     grid-template-areas: 'header '
                         'header'
                         'header';
-}
+}*/
