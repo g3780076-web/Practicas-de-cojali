@@ -16,8 +16,8 @@ h2{
     background-color: rgb(218, 222, 169);
 }
 
+@media (min-width: 768px) {
 
-/*
 main{
     display: grid;
     grid-template-columns:1fr 2fr;
@@ -37,14 +37,4 @@ main{
 #contactar{
     grid-area: contactar;
 }
-*/
-
-
-
-/*body{
-    display: grid;
-    grid-template-columns:2fr 3fr;
-    grid-template-areas: 'header '
-                        'header'
-                        'header';
-}*/
+}
