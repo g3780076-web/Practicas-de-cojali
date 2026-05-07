@@ -1,0 +1,10 @@
+ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+button:hover{
+    width: 120px;
+    height: 40px;
+}
