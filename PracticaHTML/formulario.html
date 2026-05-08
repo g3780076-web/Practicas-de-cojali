@@ -7,8 +7,17 @@
     <link rel="stylesheet" href="/css/formulario.css">
 </head>
 <body>
+    <header class="header">
+        <h1>Carta de presentación</h1>
+        <nav>
+            <ul class="ul_Header">
+                <a href="/PracticaHTML/index.html">Inicio</a>
+                <a href="/PracticaHTML/formulario.html">Formulario</a>
+            </ul>
+        </nav>
+    </header>
     <section id="contactar">
-        <h1>Formulario</h1>
+        <h2>Formulario</h2>
     <fieldset>
         <legend>Datos personales</legend>
         <label for="">Edad</label>
@@ -20,24 +29,20 @@
         <label for="">Comentarios</label>
         <textarea name="" id=""></textarea>
     </fieldset>
-    <fieldset>
-                <legend>Género:</legend> <input type="radio" id="genero_hombre" name="genero" value="hombre">
-                <label for="genero_hombre">Hombre</label>
-
-                <input type="radio" id="genero_mujer" name="genero" value="mujer">
-                <label for="genero_mujer">Mujer</label>
-
-                <input type="radio" id="genero_otro" name="genero" value="otro">
-                <label for="genero_otro">Otro</label>
+    <fieldset class="Genero">
+                <legend>Género:</legend>
+                Genero<select name="nacionalidad">
+<option value="esp" selected>Hombre</option>
+<option value="ue">Mujer</option>
+<option value="noue">Otro</option>
+</select>
+                <button type="submit" class="summit">ENVIAR</button>
             </fieldset>
-            <fieldset>
-                <button type="submit">ENVIAR</button>
-            </fieldset>
-    <p>Para contactar conmigio</p>
+    <h2>Para contactar conmigio</h2>
     <ul>
-        <li><button>Instagram</button></li>
-        <li><button>Facebook</button></li>
-        <li><button>TLFN Movil</button></li>
+        <li><button class="boton">Instagram</button></li>
+        <li><button class="boton">Facebook</button></li>
+        <li><button class="boton">TLFN Movil</button></li>
     </ul>
     </section>
 </body>

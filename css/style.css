@@ -9,6 +9,7 @@ a{
     text-decoration: none;
 }
 a:hover{
+    font-style: italic;
     text-decoration: overline;
 }
 a{
@@ -19,6 +20,13 @@ header{
     justify-content:center;
     align-items: center;
     background-color: rgb(27, 27, 27);
+    color:rgb(245, 243, 240);
+}
+main{
+    font-family:'Courier New', Courier, monospace;
+}
+footer{
+    background-color: rgb(66, 64, 64);
     color:rgb(245, 243, 240);
 }
 h2{
