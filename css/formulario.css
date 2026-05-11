@@ -29,3 +29,17 @@ h2 {
     background-color:rgb(75, 72, 72);
     color: rgb(232, 226, 226);
 }
+
+
+@media (min-width: 400px) {
+header{
+    flex-direction: column;
+}
+}
+@media (min-width: 1000px) {
+header{
+    flex-direction: row;
+}
+}
+
+

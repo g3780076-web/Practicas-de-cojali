@@ -1,5 +1,10 @@
 /*ESTE CSS ES PARA LA PAGINA PRINCIPAL*/
 
+/*body{
+    background-color: rgb(56, 51, 51);
+}
+*/
+
 .ul_Header{
     display: flex;
     gap: 30px;
@@ -55,5 +60,17 @@ main{
 
 #contactar{
     grid-area: contactar;
+}
+}
+@media (min-width: 400px) {
+
+header{
+    flex-direction: column;
+}
+}
+@media (min-width: 1000px) {
+
+header{
+    flex-direction: row;
 }
 }
