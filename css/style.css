@@ -47,7 +47,12 @@ main{
     grid-template-columns:1fr 2fr;
     grid-template-rows: auto auto;
     grid-template-areas: 'inicio datospersonales'
+                        'forma2 forma2'
                         'contactar contactar';
+}
+
+#forma2{
+grid-area: forma2;
 }
 
 #inicio{
@@ -73,4 +78,7 @@ header{
 header{
     flex-direction: row;
 }
+}
+.Estudios{
+    list-style: none;
 }

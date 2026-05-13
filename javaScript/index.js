@@ -5,13 +5,6 @@ italic.addEventListener("click", function(){
 });
 
 const a = document.body;
-    if (localStorage.getItem("Modo") === "oscuro") {
-    a.style.backgroundColor="rgb(56, 51, 51)";
-    a.style.color="white";
-    }else{
-        a.style.backgroundColor="white";
-        a.style.color="black";
-    }
 
 let count = 0;
 const oscuro = document.querySelector(".oscuro");
@@ -29,3 +22,26 @@ oscuro.addEventListener("click",function(){
         a.style.color = "white";
     }
 });
+
+const enviar = document.querySelector("#text");
+const summit = document.querySelector("#enviar");
+
+
+function mostrarTexto(){
+    let texto = enviar.value;
+    let estudios = [texto];
+
+    for(let i = 0; i< estudios.length;i++){
+        if(estudios[i]== null){
+
+        }else{
+            document.querySelector("#parrafo")
+        .innerHTML +=estudios[i]+"<br>";
+        }
+    }
+}
+
+
+
+
+
