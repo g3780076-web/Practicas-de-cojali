@@ -8,30 +8,17 @@
 */
 
 
-#inicio{
-    border: #000000 solid 3px;
-    border-radius: 10px;
-}
 
 #datospersonales{
-    border: #000000 solid 3px;
-    border-radius: 10px;
     display: flex;
-
-
 }
 
 #forma2{
-    border: #000000 solid 3px;
-    border-radius: 10px;
     display:grid;
     grid-template-columns: repeat(4,1fr);
-
 }
 
 #Formu{
-    border: #000000 solid 3px;
-    border-radius: 10px;
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -42,7 +29,6 @@
     border-radius: 10px;
 }
 #enviar{
-    border: #000000 solid 3px;
     border-radius: 5px;
 }
 .F{
@@ -168,8 +154,6 @@ header{
     flex-direction: column;
 }
 #forma2{
-    border: #000000 solid 3px;
-    border-radius: 10px;
     display:grid;
     grid-template-columns: repeat(1,1fr);
 
@@ -185,8 +169,6 @@ header{
     flex-direction: row;
 }
 #forma2{
-    border: #000000 solid 3px;
-    border-radius: 10px;
     display:grid;
     grid-template-columns: repeat(4,1fr);
 
