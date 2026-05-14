@@ -46,8 +46,7 @@
         </article>
 
         <article id="datospersonales">
-
-            <h2>Datos personales</h2>
+<section> <h2>Datos personales</h2>
 
             <p><strong>Nombre:</strong> Guillermo Alberca Torres</p>
 
@@ -55,9 +54,10 @@
 
             <p><strong>Teléfono:</strong> 616 283 258</p>
 
-            <p><strong>Dirección:</strong> Calle Teresa Panza, 1, Alcázar de San Juan</p>
+            <p><strong>Dirección:</strong> Calle Teresa Panza, 1, Alcázar de San Juan</p></section>
 
-            <h2>Sobre mí</h2>
+            <section>
+                <h2>Sobre mí</h2>
 
             <p>
                 Profesional responsable y comprometido, con capacidad de
@@ -68,9 +68,10 @@
                 Me caracterizo por el trabajo en equipo, la organización
                 y la adaptabilidad a nuevos entornos laborales.
             </p>
+            </section>
         </article>
         <article id="forma2">
-            <h2>Formación</h2>
+            <section><h2>Formación</h2>
 
             <p>
                 Actualmente curso el Ciclo Formativo de Grado Superior
@@ -80,9 +81,8 @@
 
             <p>
                 También he completado el Bachillerato Tecnológico.
-            </p>
-
-            <h2>Estudios y Tecnologías</h2>
+            </p></section>
+            <section><h2>Estudios y Tecnologías</h2>
 
             <p>
                 Tengo conocimientos en programación y desarrollo web.
@@ -102,9 +102,8 @@
                 <li>NetBeans</li>
                 <li>Eclipse</li>
                 <li id="parrafo"></li>
-            </ul>
-
-            <h2>Habilidades</h2>
+            </ul></section>
+            <section><h2>Habilidades</h2>
 
             <ul>
                 <li>Trabajo en equipo</li>
@@ -112,58 +111,66 @@
                 <li>Resolución de problemas</li>
                 <li>Responsabilidad y puntualidad</li>
                 <li>Organización</li>
-            </ul>
-
-            <h2>Cursos y certificados</h2>
+            </ul></section>
+            <section><h2>Cursos y certificados</h2>
 
             <p>
                 Conocimientos básicos en Prevención de Riesgos Laborales.
-            </p>
-
-            <h2>Idiomas</h2>
+            </p></section>
+            <section><h2>Idiomas</h2>
 
             <ul>
                 <li>Español nativo</li>
                 <li>Nivel medio de inglés hablado y escrito</li>
             </ul>
-
-            <h2>Experiencia</h2>
+</section>
+<section><h2>Experiencia</h2>
 
             <p>
                 No tengo experiencia laboral formal todavía,
                 pero he realizado proyectos personales relacionados
                 con desarrollo web y programación.
-            </p>
-
-            <h2>Objetivo</h2>
+            </p></section>
+<section><h2>Objetivo</h2>
 
             <p>
                 Mi objetivo es seguir creciendo profesionalmente
                 en el ámbito tecnológico y aportar valor dentro de una empresa.
-            </p>
-
-            <h2>Información adicional</h2>
+            </p></section>
+            <section>
+                <h2>Información adicional</h2>
 
             <ul>
                 <li>Incorporación inmediata</li>
                 <li>Disponibilidad para viajar</li>
             </ul>
+            </section>
         </article>
-
-
-
-
-
-
     </main>
 
-
-<fieldset>
-        <legend>Estudios</legend>
+<section id="Formu">
+<fieldset class="F">
         <label for="">Estudios</label>
         <input type="text" name="" id="text">
         <button id="enviar" onclick="mostrarTexto()">Summit</button>
     </fieldset>
+<article class="GH">
+<input type="text" id="username" placeholder="Escribe un usuario de GitHub" /><br>
+    <button onclick="buscarUsuario()">Buscar</button>
+    <div id="error" class="error"></div>
+
+    <div id="card" class="card">
+      <h2 id="name"></h2>
+      <p id="bio"></p>
+      <p><strong>Repositorios:</strong></p>
+      <ul id="repos"></ul>
+    </div>
+</article>
+
+</section>
+
+
+
     <footer>
         <p>
         © 2026 Guillermo. Todos los derechos reservados.
