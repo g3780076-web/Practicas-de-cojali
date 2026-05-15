@@ -1,175 +1,46 @@
-/*ESTE CSS ES PARA LA PAGINA PRINCIPAL*/
-*{
-    box-sizing:border-box;
-}
-/*body{
-    background-color: rgb(56, 51, 51);
-}
-*/
-
-
-
-#datospersonales{
-    display: flex;
-}
-
-#forma2{
-    display:grid;
-    grid-template-columns: repeat(4,1fr);
-}
-
-#Formu{
+header{
     display: flex;
     justify-content: center;
-    gap: 50px;
-}
-
-#text{
-    border: #000000 solid 3px;
-    border-radius: 10px;
-}
-#enviar{
-    border-radius: 5px;
-}
-.F{
-    display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 50px;
-     border: #000000 solid 3px;
-    border-radius: 5px;
-    background-color: rgb(51, 75, 97);
+    background-color: rgb(27, 27, 27);
+    color: rgb(245, 243, 240);
 }
 
-label{
-    color: rgb(232, 226, 226);
-}
-
-
-
-.card{
-    border-radius: 5px;
-    background-color: rgb(136, 139, 139);
-}
-
-
-.GH{
-    border: #000000 solid 1px;
-    padding: 50px;
-    background-color: rgb(51, 75, 97);
-}
-
-#repos a {
-    color: #000000;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-#repos a:hover {
-    color: rgb(0, 0, 0);
-}
-
-
-
-
-
-.ul_Header{
-    display: flex;
-    gap: 30px;
-    flex-direction:row;
-}
 a{
     text-decoration: none;
+    color: rgb(245, 243, 240);
 }
+
 a:hover{
     font-style: italic;
     text-decoration: overline;
 }
-a{
-    color: rgb(245, 243, 240);
-}
-header{
+
+.ul_Header{
+    list-style: none;
     display: flex;
-    justify-content:center;
-    align-items: center;
-    background-color: rgb(27, 27, 27);
-    color:rgb(245, 243, 240);
+    gap: 30px;
+    justify-content: center;
 }
-main{
-    font-family:'Courier New', Courier, monospace;
+
+.boton:hover{
+    width: 120px;
+    height: 40px;
 }
-footer{
-    background-color: rgb(66, 64, 64);
-    color:rgb(245, 243, 240);
-}
+
 h2{
-    /*background-color: rgb(207, 213, 139);*/
     background-color: rgb(51, 75, 97);
     color: rgb(232, 226, 226);
 }
 
-@media (min-width: 768px) {
-
-main{
-    display: grid;
-    grid-template-columns:1fr 2fr;
-    grid-template-rows: auto auto;
-    grid-template-areas: 'inicio datospersonales'
-                        'forma2 forma2'
-                        'contactar contactar';
+@media (min-width: 400px){
+    header{
+        flex-direction: column;
+    }
 }
 
-#forma2{
-grid-area: forma2;
-}
-
-#inicio{
-    grid-area: inicio;
-}
-
-#datospersonales{
-    grid-area: datospersonales;
-}
-
-#contactar{
-    grid-area: contactar;
-}
-}
-
-
-@media (min-width: 400px) {
-
-header{
-    flex-direction: column;
-}
-#datospersonales{
-    flex-direction: column;    
-}
-#Formu{
-    flex-direction: column;
-}
-#forma2{
-    display:grid;
-    grid-template-columns: repeat(1,1fr);
-
-}
-}
-
-@media (min-width: 1000px) {
-
-header{
-    flex-direction: row;
-}
-#Formu{
-    flex-direction: row;
-}
-#forma2{
-    display:grid;
-    grid-template-columns: repeat(4,1fr);
-
-}
-}
-.Estudios{
-    list-style: none;
+@media (min-width: 1000px){
+    header{
+        flex-direction: row;
+    }
 }
