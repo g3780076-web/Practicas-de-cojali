@@ -171,11 +171,6 @@ header{
     grid-template-columns: repeat(1,1fr);
 
 }
-@media (min-width: 400px){
-    header{
-        flex-direction: column;
-    }
-}
 }
 @media (min-width: 1000px) {
 
