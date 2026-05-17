@@ -1,4 +1,4 @@
-/*ESTE CSS ES PARA LA PAGINA PRINCIPAL*/
+/*ESTE CSS ES PARA LA PAGINA PRINCIPAL DEL INDEX.HTML*/
 *{
     box-sizing:border-box;
 }
@@ -25,6 +25,7 @@ header{
     gap: 50px;
     background-color: rgb(27, 27, 27);
     color: rgb(232, 226, 226);
+    align-items: center;
 }
 
 #text{
@@ -163,9 +164,9 @@ header{
 #datospersonales{
     flex-direction: column;    
 }
-#Formu{
+/*#Formu{
     flex-direction: column;
-}
+}*/
 #forma2{
     display:grid;
     grid-template-columns: repeat(1,1fr);
@@ -177,9 +178,9 @@ header{
 header{
     flex-direction: row;
 }
-#Formu{
+/*#Formu{
     flex-direction: row;
-}
+}*/
 #forma2{
     display:grid;
     grid-template-columns: repeat(4,1fr);
