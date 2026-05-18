@@ -190,8 +190,3 @@ header{
 .Estudios{
     list-style: none;
 }
-@media (min-width: 1000px){
-    header{
-        flex-direction: row;
-    }
-}
